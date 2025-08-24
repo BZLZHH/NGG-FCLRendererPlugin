@@ -18,14 +18,14 @@ android {
         minSdk = 26
         targetSdk = 34
         versionCode = 4
-        versionName = "Development 0.4.0"
+        versionName = "Release 0.4.0"
 
         manifestPlaceholders["des"] = "Krypton Wrapper (OpenGL 3.0+)"
         manifestPlaceholders["renderer"] = "NGGL4ES:libng_gl4es.so:libEGL.so"
         manifestPlaceholders["boatEnv"] = mutableMapOf<String, String>().apply {
             put("LIBGL_USE_MC_COLOR", "1")
             put("DLOPEN", "libspirv-cross-c-shared.so")
-            put("LIBGL_GL", "30")
+            put("LIBGL_GL", "31")
             put("LIBGL_ES", "3")
             put("LIBGL_NORMALIZE", "1")
             put("LIBGL_NOERROR", "1")
