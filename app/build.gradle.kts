@@ -17,10 +17,10 @@ android {
         applicationId = "com.bzlzhh.plugin.ngg"
         minSdk = 26
         targetSdk = 34
-        versionCode = 4
-        versionName = "Release 0.4.0"
+        versionCode = 41
+        versionName = "Release 0.4.1"
 
-        manifestPlaceholders["des"] = "Krypton Wrapper (OpenGL 3.0+)"
+        manifestPlaceholders["des"] = "Krypton Wrapper (OpenGL 3.1+)"
         manifestPlaceholders["renderer"] = "NGGL4ES:libng_gl4es.so:libEGL.so"
         manifestPlaceholders["boatEnv"] = mutableMapOf<String, String>().apply {
             put("LIBGL_USE_MC_COLOR", "1")
