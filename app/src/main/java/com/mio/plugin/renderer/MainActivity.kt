@@ -147,7 +147,7 @@ class MainActivity : Activity() {
         horizontalInnerLayout.addView(settingText2.apply { setPadding(8.dpToPx(),0,0,0) })
 
         val angleDisabledHint = MaterialTextView(this).apply {
-            text = "ANGLE 在当前版本被禁用，后续可能修复 (x3)"
+            text = "ANGLE 在当前版本被禁用，后续可能修复 (x4)"
             setTextAppearance(com.google.android.material.R.style.TextAppearance_Material3_BodySmall)
             setTextColor(MaterialColors.getColor(this, com.google.android.material.R.attr.colorOnSurfaceVariant, Color.GRAY))
             gravity = Gravity.CENTER
